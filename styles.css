@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0cd348e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 350px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 100%;
+  background: #007bff;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
